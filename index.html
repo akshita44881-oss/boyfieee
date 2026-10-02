@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================== PAGE 1 ==================== -->
+  <section id="page1" class="page active">
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <div class="page-content question-page">
+
+      <p class="top-message">i made something for you...</p>
+
+      <h1 class="question-title">
+        do you wanna see it? 💗
+      </h1>
+
+      <div class="main-heart" id="mainHeart">
+        <div class="heart-glow"></div>
+        <div class="heart">♥</div>
+      </div>
+
+      <p class="reaction" id="reaction">
+        choose wisely hehe 🐣
+      </p>
+
+      <div class="answer-buttons">
+        <button class="yes-btn" onclick="sayYes()">YES 💗</button>
+        <button class="no-btn" onclick="sayNo()">NO</button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== PAGE 2 ==================== -->
+  <section id="page2" class="page">
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <div id="floatingHearts"></div>
+
+    <div class="page-content boyfriend-page">
+
+      <p class="little-line">okayyy then...</p>
+
+      <h1 class="boyfriend-title">
+        <span>HAPPY</span>
+        <span>BOYFRIEND</span>
+        <span>DAY</span>
+      </h1>
+
+      <div class="title-heart">♥</div>
+
+      <button class="continue-btn" onclick="goToPage(3)">
+        there's something for you... 💌
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== PAGE 3 ==================== -->
+  <section id="page3" class="page">
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <div class="page-content wish-page">
+
+      <div class="wish-card">
+
+        <div class="wish-heart">♥</div>
+
+        <h1>YOU GOT 3 WISHES</h1>
+
+        <p class="wish-text">
+          ask for anything you want hehe...
+        </p>
+
+        <p class="wish-text">
+          I'll try my best to make it happen. 💗
+        </p>
+
+        <div class="wish-divider"></div>
+
+        <p class="wish-ps">
+          p.s. i didn't know what I should keep as a gift for you swrry 😭💕
+        </p>
+
+      </div>
+
+      <button class="continue-btn" onclick="goToPage(4)">
+        there's something else... 💌
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== PAGE 4 ==================== -->
+  <section id="page4" class="page">
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <div class="page-content questions-page">
+
+      <h1 class="questions-title">
+        so i realised i gaven't asked you eveyrthing sooo
+      </h1>
+
+      <p class="questions-subtitle">
+        tell i want to know eveything single thing about MY MAN hehe.... 💗
+      </p>
+
+      <div class="postcard-area">
+
+        <button class="postcard-arrow left-arrow" onclick="previousQuestion()">
+          ←
+        </button>
+
+        <div class="postcard-wrapper">
+
+          <div class="question-postcard" id="questionPostcard">
+
+            <div class="postcard-top">
+              <span id="questionIcon">🍕</span>
+              <span class="card-counter" id="cardCounter">1 / 8</span>
+            </div>
+
+            <div class="postcard-line"></div>
+
+            <p class="postcard-question" id="postcardQuestion">
+              your favourite food?
+            </p>
+
+            <p class="swipe-hint" id="swipeHint">
+              swipe to see the next one → 
+            </p>
+
+          </div>
+
+        </div>
+
+        <button class="postcard-arrow right-arrow" onclick="nextQuestion()">
+          →
+        </button>
+
+      </div>
+
+      <p class="screenshot-note" id="screenshotNote">
+        p.s. do take ss and answer these questions in my dm hehe 💗
+      </p>
+
+      <button class="continue-btn questions-next" onclick="goToPage(5)">
+        one last thing... 💌
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== PAGE 5 ==================== -->
+  <section id="page5" class="page">
+
+    <div class="stars"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+
+    <div class="page-content letter-page">
+
+      <div class="letter-card">
+
+        <p>
+          Happy Boyfriend Day baby..... Awwieee OMG I GOT SUCH A CUTIE BOYFIEEEEE HAHHAHA 😭😭 I’M GENUINELY BLESSED 😍💋💕💋💋💋💋
+        </p>
+
+        <p>
+          Yk what ahmm this is going to be a little cringey cringey but hey, you are my boyfieeee, atleast here I can be real 🐣
+        </p>
+
+        <p>
+          Soo yeah, first of all THANK YOU FOR TOLERATING ME lol 😭😭 Ik I gave you a headache but ahmm 👉🏻👈🏻 galti toh aapki hi hoti haina baby 😭😂
+        </p>
+
+        <p>
+          Yk Saksham, it really feels so good having you as my supporter, the person who is always there for me. Ik we are still understanding each other and learning things about us, but still it feels like I know you for years 😭 Really, it would have been great if we were childhood besties or something. Sounds cool tho 😭
+        </p>
+
+        <p>
+          My love, thanks for being there for me always. You are really a good person, even if you try to act like a bad one lol, you aren't. You annoy me a lot but I love that too 😭😂
+        </p>
+
+        <p>
+          I love each and everything about you, you as a person. Your eyes attract me, listening to your voice makes me feel something I can't explain. Your hairs—ohh God, I really wanna pull them someday 😛 Hope you don't mind that.
+        </p>
+
+        <p>
+          And honestly, I love how comfortable I feel with you. I can literally be stupid, annoying, dramatic, happy, angry, or completely random around you and somehow I still don't feel like I have to pretend to be someone else 😭🐣 That's something I genuinely appreciate about you.
+        </p>
+
+        <p>
+          Even the smallest conversations with you become memories for me. Sometimes we're probably talking about the most random nonsense ever and still somehow I end up smiling like an idiot 😭😂 I don't know how you do that, but you do.
+        </p>
+
+        <p>
+          I JUST LOVE YOU SMMM 💋
+        </p>
+
+        <p>
+          You know, I really wish that you could be here. I miss you smm every time. If I’m sad, I just want you there. If I’m happy, I just want to tell you the reason before telling others. Someone irritates me? Well ofc I’m gonna come to you and complain about them 😭 Someone hurts me? I just feel like I could have hugged you at that time and probably everything else would have gone away. Ik sounds unrealistic, it is what it is 🐣
+        </p>
+
+        <p>
+          And I hope you always remember that you don't have to be perfect around me. You can just be YOU. I don't expect you to have everything figured out all the time. I just want you to be happy, keep growing, keep doing the things you love, and know that there is someone who genuinely appreciates having you in their life. ❤️
+        </p>
+
+        <p>
+          I’m genuinely proud of the person you are and the person you’re becoming. And even though I annoy you 24/7 😭, I hope I can also be someone who makes your difficult days a little easier and your good days even better.
+        </p>
+
+        <p>
+          You are really, really very special to me, Saksham. And trust me when I say that I want to be there with you in every step. I don't wanna lose such a good person.And mhm, I don't know the exact day I fell for you. I only know there wasn't a day after that when you weren't somewhere in my thoughts. 🥹
+        </p>
+
+        <p class="poetry">
+          ✨🎀Mai shehar ki bheed, tum sukoon ki shaam ho 
+          Mai adhuri si khanai, tum uska anjam ho.
+          Mai uljhe hue jazbaat, tum suljhe hua alfaaz 
+          Mai bikhri hui si dhadkan, tum Dil ka saaz ho.
+          Mai bechain si lehron ka, bhatkta kinara
+          Tum gehra samandar, mera ek sahara
+          Mai toot kar har roz, zara zara si girun
+          Tumne bss naam lekar mera, mujhe sawara
+          Mai waqt ki tez dhoop, tum thandi chaav ho 
+          Mai bhatakti dua, tum uska jawab ho.
+          Aur mere liye tum sirf ek panna nhi, puri-ki-puri kitaab ho.
+        </p>
+
+        <p class="poetry-note">
+          p.s- i didn't wrote this poetry kisi reel pe padhi thi acchi lagi hehe isliye likh di 😭💕
+        </p>
+
+        <p>
+          I don't know what the future is going to look like, and maybe we don't have everything figured out right now, but I do know that whatever moments we have, I want to make them worth remembering. I want more stupid conversations, more annoying each other, more laughing over absolutely nothing, more memories, and obviously more reasons for me to complain about you 😭😂
+        </p>
+
+        <p class="ending">
+          Sooo yeahhh, HAPPY BOYFRIEND DAYYY BABYYYY 😭💋💕 Thank you for being you, for tolerating me, annoying me, supporting me, listening to my nonsense, and simply being there.
+        </p>
+
+        <div class="letter-heart">♥</div>
+
+      </div>
+
+      <button class="continue-btn letter-next" onclick="goToPage(6)">
+        one last surprise... 💗
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== PAGE 6 ==================== -->
+  <section id="page6" class="page">
+
+    <div class="stars"></div>
+
+    <div id="heartContainer"></div>
+
+    <div class="page-content final-page">
+
+      <p class="final-small">
+        and finally...
+      </p>
+
+      <div class="final-heart">
+        <div class="final-heart-glow"></div>
+        <span>♥</span>
+      </div>
+
+      <h1 class="final-title">
+        I LOVE YOU
+      </h1>
+
+      <p class="final-text">
+        more than all the stars up there 💗
+      </p>
+
+      <div class="final-sparkles">
+        ✦　⋆　✧　⋆　✦
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
